@@ -3,24 +3,62 @@
 <div align="center">  <h3> CSC_quantification: A MATLAB-based tool for Cervical Spinal Cord atrophy quantification using MRI images </h3></div>
 <div align="center">  ------------------------------------------------------------------------------------------------------------------------------------------------------------- </div>
 
-<h3> Brief Description of AnIMAGE </h3>
+<h2> Brief Description of AnIMAGE </h2>
 CSC_quantification is a software tool developed on MATLAB, specifically designed to help neurologists measuring Cervical Spinal Cord atrophy and tracking Multiple Sclerosis  patients. 
 
+<h2> System Requeriments</h2>
+CSC_quantification is developed on MATLAB R2023b, thus its system requirements are identical to those of MATLAB. The following are the minimum system requirements for running CSC_quantification:
 
-to facilitate the design process of microstrip antennas with complex geometries. This software enables the creation of high-performance antennas with more design options, while its user-friendly interface simplifies the design process and streamlines design calculations, saving designers significant time and effort. Additionally, AnIMAGE allows for the exportation of complex geometries, providing the ability to simulate the electromagnetic behavior of these antennas in CST Studio. This software is particularly useful for designers looking to create antennas with complex geometries such as fractals or other structures derived from images, as it offers them innovative ways to design microstrip antennas.
+<h3> Operating Systems </h3>
+----------------------------------------
+<i> for Windows  </i>
+Windows 11
+Windows 10 (version 21H2 or higher)
+Windows Server 2019
+Windows Server 2022
+-----------------------------
+<i> for Linux </i>
+Ubuntu 22.04 LTS
+Ubuntu 20.04 LTS
+Debian 11
+Red Hat Enterprise Linux 9
+Red Hat Enterprise Linux 8 (minimum 8.6)
+Red Hat Enterprise Linux 7 (minimum 7.9)
+SUSE Linux Enterprise Desktop 15
+SUSE Linux Enterprise Server 12 (minimum SP2)
+SUSE Linux Enterprise Server 15
+-----------------------------
+<i> for Mac </i>
+macOS Sonoma (14)
+macOS Ventura (13)
+macOS Monterey (12.6)
 
-System Requeriments
-AnIMAGE is developed on MATLAB R2022b, thus its system requirements are identical to those of MATLAB. The following are the minimum system requirements for running AnIMAGE:
+<h3> Processor </h3>
+----------------------------------------
+Minimum: Any Intel or AMD x86-64 processor with two or more cores
+Recommended: Any Intel or AMD x86-64 processor with four or more cores and AVX2 instruction set support 
+Note: A future release of MATLAB will require a processor with AVX2 instruction set support
 
-Processor: Any Intel-based Mac with four cores
+<h3> RAM </h3>
+----------------------------------------
+Minimum: 8 GB
+Recommended: 16 GB
 
-RAM: 4 GB minimum, but 8 GB is recommended
+<h3> Storage </h3>
+----------------------------------------
+3.8 GB for just MATLAB
+4-6 GB for a typical installation
+23 GB for an all products installation
+An SSD is strongly recommended
 
-Hard disk space: 20 GB of HDD space for MATLAB only, 30 GB for a typical installation.
+<h3> Graphics </h3>
+----------------------------------------
+Graphics
+No specific graphics card is required, but a hardware accelerated graphics card supporting OpenGL 3.3 with 1GB GPU memory is recommended.
 
-Operating system: macOS 10.15 (Catalina), macOS 10.14 (Mojave), macOS 10.13 (High Sierra)
 
-Graphics: A GPU with OpenGL 3.3 or later support is recommended for using the GPU acceleration feature.
+
+
 
 To run the AnImage GUI, it is essential to have the CST_App folder downloaded from the repository, it contains the necessary files that the software use to function properly. Between these, the Application Programming Interface (API) files that connect the CST STUDIO Suite with Matlab extracted via (https://github.com/hgiddenss/CST_App). In addition, as well as other files that enable the users to access in the AnImage GUI from Matlab.
 
