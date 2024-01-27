@@ -1,7 +1,7 @@
 <h1> <div align="center"> User’s Guide </div> </h1> 
 
 <div align="center">  <h3> CSC_quantification: A MATLAB-based tool for Cervical Spinal Cord atrophy quantification using MRI images </h3></div>
-<div align="center">  ----------------------------------------------------------------------------------------------------------------------------------------------------------------- </div>
+<div align="center">  ------------------------------------------------------------------------------------------------------------------------------------------------------------- </div>
 
 <h3> Brief Description of AnIMAGE </h3>
 CSC_quantification is a software tool developed on MATLAB, specifically designed to help neurologists measuring Cervical Spinal Cord atrophy and tracking Multiple Sclerosis  patients. 
