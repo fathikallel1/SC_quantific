@@ -35,6 +35,7 @@ Minimum: 8 GB, Recommended: 16 GB
 No specific graphics card is required, but a hardware accelerated graphics card supporting OpenGL 3.3 with 1GB GPU memory is recommended.
 
 <h2> Installation </h2>
+We propose two versions for our software. The fist one is shared as repository (CSC_quantification_MATLAB App) including all required matlab files (*.m and *.fig). Matlab software (version R2023b) should be installed with all required toolboxes on your computer. The second solution is shared as a as repository (CSC_quantification_Application) including a compiled MATLAB application (CSC_quantification Executable file: CSC_quantification.exe). You are able to Run this compiled MATLAB application without installing MATLAB. However, MATLAB Runtime (R2023b) should be installed. You can download and install the Windows version of the MATLAB Runtime for R2023b from the <a  href="www.mathworks.com/products/compiler/mcr/index.html">following link</a>.
 
 The software does not need any installation. 
 Add the whole repository to your Matlab search path by addpath.m or by Home -> Set Path -> Add Folder.
