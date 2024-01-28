@@ -1,9 +1,7 @@
 <div align="center">  <h1> CSC_quantification: A MATLAB-based tool for cervical spinal cord atrophy quantification using MRI images </h1></div>
 
-<h4> Author: Mouna Sahnoun, Ph.D. mounasahnoun2@gmail.com
-
-Advanced Technologies for Medecine & Signal 'ATMS' Research Laboratory, National Engineering School of Sfax-Sfax University-Tunisia
- </h4>
+<h4> Author: Mouna Sahnoun, Ph.D, mounasahnoun2@gmail.com
+Advanced Technologies for Medecine & Signal 'ATMS' Research Laboratory, National Engineering School of Sfax-Sfax University-Tunisia </h4>
 
 
 <h2> Brief Description of CSC_quantification </h2>
@@ -38,19 +36,11 @@ No specific graphics card is required, but a hardware accelerated graphics card 
 
 <h2> Installation </h2>
 
-The software does not need any installation. It is sufficient to add the folders with subfolders to the Matlab path. 
-Open the main matlab file labeled as 'Patient_Information.m' and Click Run.
-
-Folder organization and quick start guide is included in PrepAnnECG Documentation file in documentation folder.
-
-
-
-
-
-#Installation
-
+The software does not need any installation. 
 Add the whole repository to your Matlab search path by addpath.m or by Home -> Set Path -> Add Folder.
-#Sample File is stored in the folder "CSC_quantification"
+To read MRI image, SPM is needed. In fact, SPM is an academic software toolkit for the analysis of functional imaging data, for users familiar with the underlying statistical, mathematical and image processing concepts. It is made freely available to the imaging community, to promote collaboration and a common analysis scheme across laboratories. The software represents the implementation of the theoretical concepts of Statistical Parametric Mapping in a complete analysis package. The SPM software is a suite of (MATLAB) functions and subroutines with some externally compiled C routines. SPM was written to organise and interpret our functional neuroimaging data.
+More details about SPM and link to download are available <a href="www.fil.ion.ucl.ac.uk/spm">here</a>  
 
-#Manual Further details about how to use 'SC_quantific' can be found here SC_quantific_manual.pdf
+#Sample File is stored in the folder "CSC_quantification". 
+Open the main matlab file 'Patient_Information.m' and Click Run. Folder organization and quick start guide is included in CSC_quantification Documentation file in documentation folder.
 
